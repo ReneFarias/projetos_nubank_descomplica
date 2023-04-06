@@ -1,12 +1,12 @@
 body {
   @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  background: linear-gradient(236.85deg, green 27.26%, #3468a7 96.03%);
   font-family: "Roboto", sans-serif;
 }
 
 .container {
-  background: #ecf4ff;
-  color: #1c1c1c;
+  background: #6887a9;
+  color: black;
   margin: 64px;
   border-radius: 20px;
   box-shadow: 6px 6px 6px #0e1d2f;
@@ -46,8 +46,9 @@ body {
   font-size: 24px;
   font-weight: 400px;
   padding: 8px 16px;
-  background: #ecf4ff;
-  border-radius: 100px;
+  background: greenyellow;
+  border-radius: 30px;
+  border: none;
 }
 
 .projetos {
@@ -61,6 +62,12 @@ body {
 }
 
 .projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+
+}.projetos-titulo span{
+  color: purple;
   list-style: none;
   font-weight: 700;
   font-size: 36px;
@@ -105,4 +112,5 @@ body {
 
 .projetos-item h2 {
   color: red;
+  
 }
