@@ -139,6 +139,15 @@ body {
   justify-content: flex-end;
   height: 160px;
   cursor: pointer;
+  border-radius: 15px;
+}
+.projetos-js:hover {
+  scale: 1.2;
+  align-items: end;
+  justify-content: flex-end;
+  height: 160px;
+  cursor: pointer;
+  border-radius: 15px;
 }
 
 .projetos-item h2 {
